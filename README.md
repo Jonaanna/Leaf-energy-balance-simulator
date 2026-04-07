@@ -1,6 +1,6 @@
 # Leaf-energy-balance Simulator
 ## Overview
-*Masterthesis:* > Ecophysiological adaptations of plant thermoregulation to soil and climatic conditions along a vegetation gradient: the interplay of leaf temperature, heat tolerance, and transpiration driven by the energy balance
+*Masterthesis:* Ecophysiological adaptations of plant thermoregulation to soil and climatic conditions along a vegetation gradient: the interplay of leaf temperature, heat tolerance, and transpiration driven by the energy balance
 _______
 This repository contains a Python-based leaf energy balance simulator developed to quantify biophysical interactions between plant traits and and the environment. With this model the leaf temperature and stomatal conductance can be calculated, and therefore the energy balance equation can besolved under varying climatic conditions.
 ## Biophysical foundations of the leaf energy balance 
@@ -12,7 +12,7 @@ In general, the energy balance of plants is described by various scientific refe
   - Gates Biophysical Ecology (Gates, 1980; J. von Willert et al., 1995)
   - Reference model: Refinded basd on the Excel-Sheet framework provided by Dr. Markus Burghardt
 ------
-The model can iteratively solves for the **leaf temperature (T<sub>leaf<sub>)**, where the sum of all energy fluxes equals zero.
-It can also solve for the critical **stomatal conductance (g<sub>s0<sub>)**, which allows to determine how close a plant is operation to its thermal tipping point (heat avoidance vs. heat tolerance).
+The model can iteratively solves for the **leaf temperature (T<sub>leaf)**, where the sum of all energy fluxes equals zero.
+It can also solve for the critical **stomatal conductance (g<sub>s0)**, which allows to determine how close a plant is operation to its thermal tipping point (heat avoidance vs. heat tolerance).
 
 Different leaf energy balance scenarios based on the model are discussed in Chapter X.
